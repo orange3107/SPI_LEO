@@ -92,7 +92,7 @@ int i;
 	}
  
  drawImage("test.bmp", 0, 0, 240, 320);
- drawImage("24pic1.bmp", 0, 0, 128, 128);
+ //drawImage("24pic1.bmp", 0, 0, 128, 128);
  
  //spilcdRectangle(0, 0, 128, 128, usColors[3], usColors[1]);
 /*
