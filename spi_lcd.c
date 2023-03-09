@@ -490,7 +490,7 @@ void drawImage(char path[], int x, int y, int w, int h) {
 	uint8_t* buffer = (uint8_t*)malloc(w * 2);
 
 	printf("OK");
-	spilcdSetPosition(x, y, x + w - 1, y + h - 1);
+	spilcdSetPosition(x, y, x + w, y + h);
 
 	for (j = 0; j < h; j++)
 	{
@@ -511,7 +511,7 @@ void drawImage(char path[], int x, int y, int w, int h) {
 
 
 		}
-		spilcdSetPosition(x, y + j, x + w - 1, j + h - 1);
+		//spilcdSetPosition(x, y + j, x + w - 1, j + h - 1);
 		spilcdWriteDataBlock(buffer, w * 2);
 		ptr = 0;
 
