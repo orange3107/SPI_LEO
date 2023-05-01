@@ -31,9 +31,9 @@
 //#define USE_NANOPI2
 //#define USE_NANOPIK2
 //#define USE_NANOPIDUO
-//#define USE_NANOPINEO
+#define USE_NANOPINEO
 //define USE_NANOPIM1
-#define USE_RPI
+//#define USE_RPI
 //#define USE_ORANGEPIZERO
 //#define USE_ORANGEPIONE
 //#define USE_BANANAPIM2ZERO
